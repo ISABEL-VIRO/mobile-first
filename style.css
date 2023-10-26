@@ -164,8 +164,21 @@ main {
 
 }
 
+.main-tables-container{
+  display: flex;
+  height:316px ;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  
+}
+
+
+
+
 .main-currency-table {
   width: 70%;
+  scroll-snap-align: center;
   min-width: 235px;
   max-width: 500px;
   height: 260px;
